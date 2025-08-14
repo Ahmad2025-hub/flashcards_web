@@ -1,105 +1,19 @@
 ﻿{
   "categories": [
     {
-      "name": "Analysis",
+      "name": "Terme-Gleichungen umformen",
       "cards": [
-        {"question": "Was besagt die Potenzregel?", "answer": "f(x)=x^n ⇒ f'(x)=n·x^(n−1)"},
+        {"question": "Was besagt die Potenzregel?", "answer": "f(x)=x^n ⇒ f'(x)=n·x^(n-1)"},
         {"question": "Formel für die Produktregel?", "answer": "(u·v)' = u'·v + u·v'"},
-        {"question": "Formel für die Quotientenregel?", "answer": "(u/v)' = (u'·v − u·v')/v^2"},
-        {"question": "Formel für die Kettenregel?", "answer": "(f∘g)' = (f'∘g)·g'"},
-        {"question": "Ableitung von e^x?", "answer": "(e^x)' = e^x"},
-        {"question": "Ableitung von ln(x)?", "answer": "(ln x)' = 1/x"},
-        {"question": "Stammfunktion von e^x?", "answer": "∫e^x dx = e^x + C"},
-        {"question": "Stammfunktion von 1/x?", "answer": "∫1/x dx = ln|x| + C"},
-        {"question": "Was ist eine stetige Funktion?", "answer": "Eine Funktion ohne Sprungstellen, deren Graph ohne Absetzen gezeichnet werden kann."},
-        {"question": "Was ist eine differenzierbare Funktion?", "answer": "Eine Funktion, die an jeder Stelle eine Ableitung besitzt."},
-
-        {"question": "Leite ab: f(x) = 3x^2 + 5x + 2", "answer": "f'(x) = 6x + 5"},
-        {"question": "Leite ab: f(x) = x^3 − 4x", "answer": "f'(x) = 3x^2 − 4"},
-        {"question": "Leite ab: f(x) = sin(x)", "answer": "f'(x) = cos(x)"},
-        {"question": "Leite ab: f(x) = cos(x)", "answer": "f'(x) = −sin(x)"},
-        {"question": "Leite ab: f(x) = e^(2x)", "answer": "f'(x) = 2e^(2x)"},
-        {"question": "Leite ab: f(x) = ln(3x)", "answer": "f'(x) = 1/x"},
-        {"question": "Leite ab: f(x) = x^4 + 2x^2 + 1", "answer": "f'(x) = 4x^3 + 4x"},
-        {"question": "Berechne: ∫(2x) dx", "answer": "x^2 + C"},
-        {"question": "Berechne: ∫(4x^3) dx", "answer": "x^4 + C"},
-        {"question": "Berechne: ∫(cos x) dx", "answer": "sin x + C"},
-        {"question": "Berechne: ∫(sin x) dx", "answer": "−cos x + C"},
-        {"question": "Berechne: ∫(1/(x^2)) dx", "answer": "−1/x + C"},
-        {"question": "Berechne: ∫e^(3x) dx", "answer": "(1/3)e^(3x) + C"},
-        {"question": "Berechne: ∫(5x + 2) dx", "answer": "(5/2)x^2 + 2x + C"},
-        {"question": "Berechne: f'(x) wenn f(x) = (x^2+1)^3", "answer": "f'(x) = 3(x^2+1)^2 · 2x"},
-        {"question": "Berechne: f'(x) wenn f(x) = sqrt(x)", "answer": "f'(x) = 1/(2√x)"},
-        {"question": "Berechne: f'(x) wenn f(x) = 1/x", "answer": "f'(x) = −1/x^2"},
-        {"question": "Berechne: f'(x) wenn f(x) = tan(x)", "answer": "f'(x) = 1/cos²(x)"},
-        {"question": "Leite ab: f(x) = x^5", "answer": "f'(x) = 5x^4"},
-        {"question": "Leite ab: f(x) = 7x", "answer": "f'(x) = 7"},
-        {"question": "Berechne: ∫x dx", "answer": "(1/2)x^2 + C"},
-        {"question": "Berechne: ∫(x^3 − 2x) dx", "answer": "(1/4)x^4 − x^2 + C"},
-        {"question": "Berechne: ∫(3e^x − 4) dx", "answer": "3e^x − 4x + C"},
-        {"question": "Berechne: ∫(sec² x) dx", "answer": "tan x + C"},
-        {"question": "Berechne: ∫(csc² x) dx", "answer": "−cot x + C"},
-        {"question": "Berechne: ∫(1/(x+2)) dx", "answer": "ln|x+2| + C"},
-        {"question": "Berechne: f'(x) wenn f(x) = ln(x²+1)", "answer": "f'(x) = 2x/(x²+1)"},
-        {"question": "Berechne: f'(x) wenn f(x) = e^(x²)", "answer": "f'(x) = 2x·e^(x²)"},
-        {"question": "Berechne: f'(x) wenn f(x) = sin(3x)", "answer": "f'(x) = 3cos(3x)"},
-        {"question": "Berechne: f'(x) wenn f(x) = cos(5x)", "answer": "f'(x) = -5sin(5x)"},
-        {"question": "Berechne: f'(x) wenn f(x) = (x³+1)/(x+1)", "answer": "Mit Quotientenregel: f'(x) = [(3x²)(x+1) - (x³+1)·1] / (x+1)²"},
-        {"question": "Berechne: ∫(x e^x) dx", "answer": "x e^x − e^x + C"}
+        {"question": "Formel für die Quotientenregel?", "answer": "(u/v)' = (u'·v - u·v')/v^2"}
       ]
     },
     {
       "name": "Lineare Algebra",
       "cards": [
-        {"question": "Definition Skalarprodukt", "answer": "v·w = v1w1+v2w2+v3w3"},
-        {"question": "Definition Kreuzprodukt", "answer": "v×w ist ein Vektor senkrecht zu v und w mit Betrag |v||w|sin(θ)"},
-        {"question": "Definition Länge eines Vektors", "answer": "|v| = √(v1²+v2²+v3²)"},
-        {"question": "Definition Einheitsvektor", "answer": "Ein Vektor mit Länge 1"},
-        {"question": "Definition Basis in ℝ³", "answer": "Menge von 3 linear unabhängigen Vektoren"},
-        {"question": "Definition Determinante einer 2x2-Matrix", "answer": "det = ad − bc"},
-        {"question": "Definition Inverse einer Matrix", "answer": "A⁻¹ ist die Matrix, für die A·A⁻¹ = I gilt"},
-        {"question": "Definition Transponierte", "answer": "Vertauschen von Zeilen und Spalten"},
-        {"question": "Definition Linearkombination", "answer": "Summe von Vielfachen von Vektoren"},
-        {"question": "Definition Rang einer Matrix", "answer": "Anzahl der linear unabhängigen Zeilen/Spalten"},
-
-        {"question": "Berechne: (1,2,3)·(4,5,6)", "answer": "1·4 + 2·5 + 3·6 = 32"},
-        {"question": "Berechne: |(3,4)|", "answer": "√(3²+4²) = 5"},
-        {"question": "Berechne: Kreuzprodukt (1,0,0)×(0,1,0)", "answer": "(0,0,1)"},
-        {"question": "Berechne: det([[2,3],[1,4]])", "answer": "2·4 − 1·3 = 5"},
-        {"question": "Berechne: det([[1,2,3],[0,1,4],[5,6,0]])", "answer": "1(1·0−4·6)−2(0·0−4·5)+3(0·6−1·5) = -24+40-15 = 1"},
-        {"question": "Berechne: 2·(1,2,3) + 3·(4,5,6)", "answer": "(14,19,24)"},
-        {"question": "Berechne: Länge von (5,12)", "answer": "√(25+144) = 13"},
-        {"question": "Berechne: Normiere (3,4)", "answer": "(3/5, 4/5)"},
-        {"question": "Berechne: Projektion von (3,4) auf (4,0)", "answer": "(3,0)"},
-        {"question": "Berechne: det([[0,1],[1,0]])", "answer": "-1"},
-        {"question": "Berechne: (2,3)·(5,7)", "answer": "31"},
-        {"question": "Berechne: Kreuzprodukt (0,1,0)×(0,0,1)", "answer": "(1,0,0)"},
-        {"question": "Berechne: det([[3,8],[4,6]])", "answer": "-14"},
-        {"question": "Berechne: (1,1,1)+(2,2,2)", "answer": "(3,3,3)"},
-        {"question": "Berechne: (2,0,0)−(0,2,0)", "answer": "(2,-2,0)"},
-        {"question": "Berechne: Skalarprodukt von (1,2) und (2,1)", "answer": "4"},
-        {"question": "Berechne: det([[1,0],[0,1]])", "answer": "1"},
-        {"question": "Berechne: Länge von (8,15)", "answer": "17"},
-        {"question": "Berechne: det([[4,2],[3,1]])", "answer": "-2"},
-        {"question": "Berechne: Projektion von (6,8) auf (3,4)", "answer": "(6,8)"},
-        {"question": "Berechne: (0,5,0)·(0,0,5)", "answer": "0"},
-        {"question": "Berechne: (1,2,2)·(2,1,2)", "answer": "8"},
-        {"question": "Berechne: det([[1,2],[3,4]])", "answer": "-2"},
-        {"question": "Berechne: (7,0) + (0,7)", "answer": "(7,7)"},
-        {"question": "Berechne: (10,0)·(0,10)", "answer": "0"},
-        {"question": "Berechne: det([[2,5],[1,2]])", "answer": "-1"},
-        {"question": "Berechne: det([[5,5],[5,5]])", "answer": "0"},
-        {"question": "Berechne: (2,3)+(3,2)", "answer": "(5,5)"},
-        {"question": "Berechne: (1,0)·(0,1)", "answer": "0"},
-        {"question": "Berechne: Kreuzprodukt (1,2,3)×(4,5,6)", "answer": "(-3,6,-3)"},
-        {"question": "Berechne: Länge von (9,12)", "answer": "15"},
-        {"question": "Berechne: (3,4)·(4,3)", "answer": "24"},
-        {"question": "Berechne: det([[0,2],[1,3]])", "answer": "-2"},
-        {"question": "Berechne: det([[2,3,4],[0,1,2],[1,2,3]])", "answer": "0"},
-        {"question": "Berechne: det([[6,0],[0,6]])", "answer": "36"},
-        {"question": "Berechne: det([[1,2],[2,4]])", "answer": "0"},
-        {"question": "Berechne: (8,15)·(15,8)", "answer": "240"},
-        {"question": "Berechne: Normiere (8,15)", "answer": "(8/17, 15/17)"}
+        {"question": "Definition Skalarprodukt", "answer": "v·w = v1w1 + v2w2 + v3w3"},
+        {"question": "Definition Kreuzprodukt", "answer": "v×w ist senkrecht zu v und w; |v×w| = |v||w|sin(θ)"},
+        {"question": "Definition Länge eines Vektors", "answer": "|v| = √(v1^2 + v2^2 + v3^2)"}
       ]
     },
     {
@@ -107,53 +21,79 @@
       "cards": [
         {"question": "Definition Laplace-Wahrscheinlichkeit", "answer": "P(E)=|E|/|Ω|"},
         {"question": "Definition Bedingte Wahrscheinlichkeit", "answer": "P(A|B) = P(A∩B) / P(B)"},
-        {"question": "Definition Unabhängigkeit", "answer": "A und B unabhängig, wenn P(A∩B) = P(A)·P(B)"},
-        {"question": "Definition Zufallsvariable", "answer": "Ordnet jedem Ergebnis einer Zufallsexperimentes eine Zahl zu"},
-        {"question": "Definition Erwartungswert", "answer": "E(X) = Σ x·P(X=x)"},
-        {"question": "Definition Varianz", "answer": "Var(X) = E(X²) − E(X)²"},
-        {"question": "Definition Binomialverteilung", "answer": "P(X=k)=(n über k) p^k (1-p)^{n-k}"},
-        {"question": "Definition Normalverteilung", "answer": "Dichte: φ(x) = (1/(σ√(2π))) e^{-0.5((x-μ)/σ)²}"},
-        {"question": "Definition Bernoulli-Experiment", "answer": "Zwei mögliche Ausgänge: Erfolg/Misserfolg"},
-        {"question": "Definition Kombinatorik: Permutation", "answer": "Anordnung aller Elemente in bestimmter Reihenfolge"},
-
-        {"question": "Ein Würfel wird einmal geworfen. P(„6“)?", "answer": "1/6"},
-        {"question": "Ein Würfel wird einmal geworfen. P(„gerade Zahl“)?", "answer": "3/6 = 1/2"},
-        {"question": "Ein Würfel wird zweimal geworfen. P(Summe=7)?", "answer": "6/36 = 1/6"},
-        {"question": "Münze 3x werfen. P(genau 2x Kopf)?", "answer": "3/8"},
-        {"question": "Münze 4x werfen. P(4x Kopf)?", "answer": "1/16"},
-        {"question": "Ziehe 1 Karte aus 52. P(Herz)?", "answer": "13/52 = 1/4"},
-        {"question": "Ziehe 1 Karte aus 52. P(Ass)?", "answer": "4/52 = 1/13"},
-        {"question": "Ziehe 2 Karten ohne Zurücklegen. P(beide Asse)?", "answer": "(4/52)·(3/51) = 1/221"},
-        {"question": "Ein Würfel wird einmal geworfen. E(X) bei X=Augenzahl?", "answer": "3,5"},
-        {"question": "Ein Würfel wird zweimal geworfen. P(„beide 6“)?", "answer": "1/36"},
-        {"question": "2 Münzen werfen. P(mindestens 1 Kopf)?", "answer": "3/4"},
-        {"question": "Urne: 5 rot, 3 blau. Ziehe 1 rot?", "answer": "5/8"},
-        {"question": "Urne: 5 rot, 3 blau. Ziehe 2 rot ohne Zurücklegen?", "answer": "(5/8)·(4/7) = 20/56"},
-        {"question": "Urne: 4 rot, 6 blau. Ziehe 1 blau?", "answer": "6/10 = 3/5"},
-        {"question": "Urne: 4 rot, 6 blau. Ziehe 1 rot und 1 blau (ohne Zurücklegen)?", "answer": "(4/10)·(6/9) + (6/10)·(4/9) = 48/90"},
-        {"question": "Ein Würfel wird 3x geworfen. P(„dreimal gerade Zahl“)?", "answer": "(1/2)^3 = 1/8"},
-        {"question": "Münze 2x werfen. P(„gleiche Seiten“)?", "answer": "1/2"},
-        {"question": "Zufallszahl 1–10. P(Teilbar durch 3)?", "answer": "3/10"},
-        {"question": "Zufallszahl 1–20. P(Primzahl)?", "answer": "8/20 = 2/5"},
-        {"question": "Binomial: n=5, p=0.4, P(X=2)?", "answer": "P= (5 über 2)(0.4)^2(0.6)^3"},
-        {"question": "Binomial: n=10, p=0.5, P(X=5)?", "answer": "P = (10 über 5)(0.5)^10"},
-        {"question": "Ziehe 1 Kugel aus Urne (3 rot, 7 blau). P(rot)?", "answer": "3/10"},
-        {"question": "Ziehe 3 Karten aus 52. P(alle Pik)?", "answer": "(13/52)·(12/51)·(11/50)"},
-        {"question": "Münze 5x werfen. P(„mind. 4 Kopf“)?", "answer": "P(4 Kopf) + P(5 Kopf)"},
-        {"question": "Ein Würfel wird 4x geworfen. P(„nur Einsen“)?", "answer": "(1/6)^4"},
-        {"question": "Zahl 1–6 wählen. P(„Zahl ≤ 4“)?", "answer": "4/6 = 2/3"},
-        {"question": "Urne: 2 rot, 2 blau. P(2 rot mit Zurücklegen)?", "answer": "(2/4)^2 = 1/4"},
-        {"question": "Urne: 2 rot, 2 blau. P(2 rot ohne Zurücklegen)?", "answer": "(2/4)·(1/3) = 1/6"},
-        {"question": "Würfel 1x. P(ungerade Zahl)?", "answer": "3/6 = 1/2"},
-        {"question": "Würfel 1x. P(>4)?", "answer": "2/6 = 1/3"},
-        {"question": "Zufallszahl 1–12. P(Teilbar durch 4)?", "answer": "3/12 = 1/4"},
-        {"question": "Urne: 5 rot, 5 blau. P(1 rot, 1 blau ohne Zurücklegen)?", "answer": "(5/10)·(5/9) + (5/10)·(5/9)"},
-        {"question": "Binomial: n=4, p=0.3, P(X=1)?", "answer": "P = (4 über 1)(0.3)^1(0.7)^3"},
-        {"question": "Binomial: n=3, p=0.8, P(X=3)?", "answer": "(0.8)^3"},
-        {"question": "Ein Würfel wird 1x geworfen. P(„Augenzahl=1 oder 2“)?", "answer": "2/6 = 1/3"},
-        {"question": "Ziehe 1 Karte. P(Bube)?", "answer": "4/52 = 1/13"},
-        {"question": "Ziehe 1 Karte. P(Schwarze Karte)?", "answer": "26/52 = 1/2"},
-        {"question": "Zufallszahl 1–5. P(Primzahl)?", "answer": "3/5"}
+        {"question": "Definition Unabhängigkeit", "answer": "A und B unabhängig, wenn P(A∩B) = P(A)·P(B)"}
+      ]
+    },
+    {
+      "name": "Geometrie",
+      "cards": [
+        {"question": "Was ist ein Quadrat?", "answer": "Viereck mit vier rechten Winkeln und vier gleich langen Seiten."},
+        {"question": "Innenwinkelsumme im Dreieck?", "answer": "180°"},
+        {"question": "Umfang eines Kreises?", "answer": "U = 2πr"}
+      ]
+    },
+    {
+      "name": "Trigonometrie",
+      "cards": [
+        {"question": "Grundidentität von Sinus und Kosinus", "answer": "sin^2(x) + cos^2(x) = 1"},
+        {"question": "tan(x) in Sinus/Kosinus", "answer": "tan(x) = sin(x)/cos(x)"},
+        {"question": "sin(90°) und cos(0°)", "answer": "sin(90°)=1, cos(0°)=1"}
+      ]
+    },
+    {
+      "name": "Funktionen",
+      "cards": [
+        {"question": "Definition einer Funktion", "answer": "Ordnet jedem x aus der Definitionsmenge genau ein y zu."},
+        {"question": "Beispiel lineare Funktion", "answer": "f(x) = 2x + 3"},
+        {"question": "Nullstelle von f(x)=2x+4", "answer": "x = -2"}
+      ]
+    },
+    {
+      "name": "Komplexe Zahlen",
+      "cards": [
+        {"question": "Wert von i^2", "answer": "i^2 = -1"},
+        {"question": "Betrag von 3+4i", "answer": "|3+4i| = 5"},
+        {"question": "Konjugierte von a+bi", "answer": "a - bi"}
+      ]
+    },
+    {
+      "name": "Vektorrechnung",
+      "cards": [
+        {"question": "Einheitsvektor zu v", "answer": "ê = v/|v|"},
+        {"question": "Projektionsformel von a auf b", "answer": "proj_b(a) = (a·b/|b|^2) · b"},
+        {"question": "Dreidimensionales Skalarprodukt", "answer": "a·b = a1b1 + a2b2 + a3b3"}
+      ]
+    },
+    {
+      "name": "Matrizenrechnung",
+      "cards": [
+        {"question": "Determinante 2×2-Matrix", "answer": "det([[a,b],[c,d]]) = ad - bc"},
+        {"question": "Transponierte Definition", "answer": "Vertauschen von Zeilen und Spalten: A^T"},
+        {"question": "Einheitsmatrix Eigenschaft", "answer": "A·I = I·A = A"}
+      ]
+    },
+    {
+      "name": "Wahrscheinlichkeitsrechnung",
+      "cards": [
+        {"question": "Permutation von n Elementen", "answer": "n!"},
+        {"question": "Kombinationen", "answer": "(n über k) = n! / (k!(n-k)!)"},
+        {"question": "Erwartungswert (diskret)", "answer": "E(X) = Σ x·P(X=x)"}
+      ]
+    },
+    {
+      "name": "Statistik",
+      "cards": [
+        {"question": "Arithmetisches Mittel von x1..xn", "answer": "x̄ = (1/n) Σ xi"},
+        {"question": "Median", "answer": "Zentraler Wert einer geordneten Stichprobe."},
+        {"question": "Modus", "answer": "Am häufigsten auftretender Wert."}
+      ]
+    },
+    {
+      "name": "Differentialgleichungen",
+      "cards": [
+        {"question": "Definition DGL", "answer": "Gleichung mit einer unbekannten Funktion und deren Ableitungen."},
+        {"question": "Beispiel lineare DGL 1. Ordnung", "answer": "y' + y = 0 hat Lösung y = C·e^{-x}"},
+        {"question": "Trennung der Variablen", "answer": "Form y' = f(x)g(y): dy/g(y) = f(x) dx"}
       ]
     }
   ]
